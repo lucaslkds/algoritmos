@@ -1,0 +1,23 @@
+ALGORITIMO
+
+VAR 
+    real: nota1, nota2, nota3, media;
+
+INICIO
+
+    ESCREVA"Informe a primeira nota";
+    LEIA nota1;
+
+    ESCREVA"Informe a segunda nota";
+    LEIA nota2;
+
+    ESCREVA"Informe a terceira nota";
+    LEIA nota3;
+
+    media<- ((nota1*2)+(nota2*3)+(nota3*5))/3
+
+    se 
+
+    ESCREVA"A média do aluno é",media;
+
+FIM

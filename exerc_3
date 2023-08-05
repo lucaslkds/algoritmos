@@ -1,0 +1,17 @@
+ALGORITIMO
+
+VAR 
+    int: numero, antes, depois;
+
+INICIO
+
+    ESCREVA"Informe um número";
+    LEIA numero;
+
+    antes<- numero-1;
+    
+    depois<- numero+1;
+
+    ESCREVA" O numero anteiror é", antes,"e o sucessor é",depois;
+
+FIM
