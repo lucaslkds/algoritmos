@@ -1,0 +1,16 @@
+ALGORITIMO at1
+
+VAR 
+    real: base, altura;
+
+INICIO
+
+    ESCREVA"Informe a base da pirâmide"
+    LEIA (base);
+
+    ESCREVA"Informe a altura da pirâmide"
+    LEIA (altura);
+
+    ESCREVA" A área da pirâmide é", base * altura / 2; 
+
+FIM
